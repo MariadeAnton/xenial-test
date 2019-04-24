@@ -1,0 +1,18 @@
+language: python
+
+dist: xenial
+
+services:
+  - mysql
+  - riak
+  - rabbitmq
+  - memcached
+  - postgresql
+  - mongodb
+  - couchdb
+  - redis-server
+  - cassandra
+  - neo4j
+  - elasticsearch
+
+script: "echo I live"
